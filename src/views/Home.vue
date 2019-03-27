@@ -1,13 +1,6 @@
 <template>
-  <HelloWorld />
+  <div>
+      <v-btn color="success">Success</v-btn>
+  </div>
 </template>
 
-<script>
-  import HelloWorld from '../components/HelloWorld'
-
-  export default {
-    components: {
-      HelloWorld
-    }
-  }
-</script>
