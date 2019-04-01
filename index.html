@@ -10,29 +10,26 @@
 </head>
 <body>
     <div id="app">
-        <form>
-            <p>e-mail:</p>
-            <input v-model="conta"><br>
-            <p>senha:</p>
-            <input v-model="senha">
-            <p> {{conta}}</p>
-            <p> {{senha}}</p>
-            <input type="button" value="LOGIN">
-         </form>
-        
-       
+        <input v-model="email">
+        <input v-model="senha">
+
+        <p>{{senha}}</p>
+        <p>{{email}}</p>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script>
-            var app = new Vue({
-                el: '#app',
-                data: {
-                    conta:'',
-                    senha:''
-                
-                }
-            })
+        var app = new Vue({
+            el: '#app',
+            //VARIAVEIS
+            data: {
+                email:'',
+                senha:'',
+                message: 'Faça o Login' , 
+                logado: true ,
+                usuario: 'Marcelo'
+            }
+        })
     </script>
 </body>
 </html>
