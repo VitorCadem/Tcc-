@@ -1,6 +1,6 @@
 <template>
   <div>
-      <v-btn color="success">Success</v-btn>
+      <v-btn color="success">inicial</v-btn>
   </div>
 </template>
 
