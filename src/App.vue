@@ -6,15 +6,16 @@
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat>Inicial</v-btn>
       <v-btn flat>Download</v-btn>
-      <v-btn flat>Curiosidades</v-btn>
       <v-btn flat>Wiki</v-btn>
       <v-btn flat>Sobre</v-btn>
     </v-toolbar-items>
   </v-toolbar>
     <v-content>
       <router-view></router-view>
+       <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
+
     </v-content>
-  </v-app>
+  </v-app> 
 </template>
 <style scoped>
   #app{
