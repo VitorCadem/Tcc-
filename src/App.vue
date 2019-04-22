@@ -4,10 +4,10 @@
     <v-toolbar-title>Bad Moon </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn flat>Inicial</v-btn>
-      <v-btn flat>Download</v-btn>
-      <v-btn flat>Wiki</v-btn>
-      <v-btn flat>Sobre</v-btn>
+      <v-btn flat to="/">Inicial</v-btn>
+      <v-btn flat to="/Download">Download</v-btn>
+      <v-btn flat to="/Wiki" >Wiki</v-btn>
+      <v-btn flat to="/Sobre" >Sobre</v-btn>
     </v-toolbar-items>
   </v-toolbar>
     <v-content>

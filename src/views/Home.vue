@@ -1,6 +1,8 @@
 <template>
-  <div>
-      <v-btn color="success">inicial</v-btn>
-  </div>
+  <v-container>
+    <v-flex xs6>
+      
+    </v-flex>
+  </v-container>
 </template>
 
