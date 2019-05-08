@@ -12,8 +12,7 @@
   </v-toolbar>
     <v-content>
       <router-view></router-view>
-       <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
-
+       
     </v-content>
   </v-app> 
 </template>
