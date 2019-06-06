@@ -5,6 +5,7 @@ import Home from './views/Home.vue'
 import Download from './views/Download.vue'
 import Wiki from './views/Wiki.vue'
 import Sobre from './views/Sobre.vue'
+import Produto from './views/Produto.vue'
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ export default new Router({
       path: '/sobre',
       name: 'sobre',
       component: Sobre
+    },
+    {
+      path: '/Produto',
+      name: 'produto',
+      component: Produto
     }
 
 
