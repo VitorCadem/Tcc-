@@ -19,11 +19,11 @@ export default {
     return {
       front: {
         title: 'Daily Conversion Value',
-        graphData: [3, 2, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
+        graphData: [1,2,1,2,1,2,1,2,1,2,1,2,1],
       },
       back: {
         title: 'Monthly Summary',
-        message: 'Your average daily conversion value for this month is <b>50.4$</b>. It is below the average of the last six months.',
+        message: 'jutsu bola de lixo',
       },
     };
   },
