@@ -6,6 +6,7 @@ import Download from './views/Download.vue'
 import Wiki from './views/Wiki.vue'
 import Sobre from './views/Sobre.vue'
 import Produto from './views/Produto.vue'
+import Agua from './views/Agua.vue'
 
 Vue.use(Router)
 
@@ -42,7 +43,13 @@ export default new Router({
       path: '/Produto',
       name: 'produto',
       component: Produto
+    },
+    {
+      path: '/agua',
+      name: 'agua',
+      component: Agua
     }
+
 
 
     

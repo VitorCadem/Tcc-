@@ -9,6 +9,7 @@
       <v-btn flat to="/Wiki" >Wiki</v-btn>
       <v-btn flat to="/Sobre" >Sobre</v-btn>
       <v-btn flat to="/Produto">Produto</v-btn>
+      <v-btn flat to="/Agua">Agua</v-btn>
     </v-toolbar-items>
   </v-toolbar>
     <v-content>
