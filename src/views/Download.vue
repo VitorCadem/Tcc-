@@ -1,16 +1,14 @@
 <template>
 <v-flex xs4>
   <div>
-    <info-card :frontType="'graph'"
+    <info-card :frontType="'img'"
       :frontTitle="front.title"
-      :frontData="front.graphData"
+      :frontImg="front.img"
       :backTitle="back.title"
       :backData="back.message" />
-
+  
   </div>
 </v-flex>
-
-  
 </template>
 
 <script>
@@ -23,7 +21,8 @@ export default {
   data() {
     return {
       front: {
-        title: 'Daily Conversion Value',
+        title: 'jhonas',
+        img : components/beta.jpg
       },
       back: {
         title: 'Monthly Summary',
