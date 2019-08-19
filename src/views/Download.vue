@@ -26,7 +26,7 @@ export default {
       },
       back: {
         title: 'Monthly Summary',
-        message: 'jutsu bola de lixo',
+        message: 'CHORA MAIS VITOR, APRENDEU COM A LARISSA',
       },
     };
   },
