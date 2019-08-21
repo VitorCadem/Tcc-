@@ -4,10 +4,12 @@
     class="mx-auto"
     max-width="400"
   >
-    <v-img
+    <v-img id="david"
       class="white--text"
-      height="200px"
-      src="../components/Wood.png"
+      height="1000px"
+      width:="1000px"
+      
+     
       
      
   >  
@@ -22,3 +24,9 @@
   
 </v-flex>
 </template>
+<style scoped>
+#david{
+background-image:url("../components/Wood.png")
+
+}
+</style>
