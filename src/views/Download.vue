@@ -1,34 +1,24 @@
 <template>
 <v-flex xs4>
-  <div>
-    <info-card :frontType="'img'"
-      :frontTitle="front.title"
-      :frontImg="front.img"
-      :backTitle="back.title"
-      :backData="back.message" />
+  <v-card
+    class="mx-auto"
+    max-width="400"
+  >
+    <v-img
+      class="white--text"
+      height="200px"
+      src="../components/Wood.png"
+      
+     
+  >  
+     
+    </v-img>
+
+    <v-card-text>
+    
+    </v-card-text>
+
+  </v-card>
   
-  </div>
 </v-flex>
 </template>
-
-<script>
-import InfoCard from 'vue-info-card';
-
-export default {
-  components: {
-    InfoCard,
-  },
-  data() {
-    return {
-      front: {
-        title: 'jhonas',
-        img : components/beta.jpg
-      },
-      back: {
-        title: 'Monthly Summary',
-        message: 'CHORA MAIS VITOR, APRENDEU COM A LARISSA',
-      },
-    };
-  },
-};
-</script>

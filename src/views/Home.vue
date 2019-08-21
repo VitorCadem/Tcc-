@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="py-2 px-0">
-    <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
+    <v-parallax src="https://i1.wp.com/www.selectgame.com.br/wp-content/uploads/2019/07/One-Piece-Wallpaper-de-Wano-Novo-Arco.jpg?fit=1920%2C1080&ssl=1">
       <v-layout
       >
         <v-flex xs6>
