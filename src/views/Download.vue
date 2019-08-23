@@ -24,6 +24,7 @@
   
 </v-flex>
 </template>
+
 <style scoped>
 #david{
 background-image:url("../components/Wood.png")
