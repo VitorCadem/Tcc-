@@ -29,6 +29,8 @@ boa dose de humor e muita ação, o game traz ao jogador problemas sociais, pol�
 vícios, fome, preconceitos e dogmas, que assombram toda uma sociedade, trazendo reflexões e
 filosofia do mesmo, baseado em fatos históricos, misturado com uma fantasia vibrante.
 </p>
+
+
         </v-card>
       </v-hover>
     </v-col>
